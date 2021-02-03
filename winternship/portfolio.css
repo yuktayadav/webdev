@@ -3,7 +3,7 @@
     padding: 0;
 }
 .bg1{
-    background-image: url(gray-marble.jpg);
+    background-image: url(../gray-marble.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -19,7 +19,7 @@
    border-radius: 50%;
 }
 .bg2{
-    background-image:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url(black.jpg);
+    background-image:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url(../black.jpg);
     background-repeat: no-repeat;
     background-size:100% auto;
     background-size: cover;
@@ -28,7 +28,7 @@
     
 }
 .bg4{
-    background-image:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url(bw.jpg);
+    background-image:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url(../bw.jpg);
     background-repeat: no-repeat;
     background-size:100% auto;
     background-size: cover;
@@ -36,7 +36,7 @@
     height: 100vh;
 }
 .bg3{
-    background-image:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url(mountain.jpeg);
+    background-image:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url(../mountain.jpeg);
     background-repeat: no-repeat;
     background-size:100% auto;
     background-size: cover;
