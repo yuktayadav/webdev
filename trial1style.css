@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html{
+    background-image: url(darkforest.png);
+    background-repeat: no-repeat;
+    background-size:100% auto;
+
+}
+/* body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+} */
+
+ ul{
+     list-style-type: none;
+     float:right;
+     position: absolute;
+     top:10px;
+     left: 55%;
+     top:5%;
+     /* display: inline; */
+     /* display: inline-block; */
+  }
+
+
+
+ 
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight:bold;
+    font-size: 1.2em;
+    padding:0.2rm;
+    transition: 0.6s ease;
+    
+    
+ }
+ a:hover{
+     color: rgb(52, 52, 138);
+     border: 1px black solid;
+    }
+    a:active{
+        color: rgb(52, 52, 138);
+     border: 1px black solid;
+    }
+ li{
+    display: inline;
+    padding: 0.7em;
+ }
+ .first{
+     font-size: 35px;
+     font-weight:bold;
+     /* border:1px dotted #000; */
+     padding-left: 0%;
+     position:absolute;
+     top:13%;
+     left:-1%;
+ transform: translate(10%,50%);
+ 
+ }
+ .first h1{
+    font-family: 'Langar', cursive;
+ }
+ .logo img{
+     /* float:inline-end; */
+     left:10%;
+     width:150px;
+     height:auto;
+     /* float: right; */
+ }
+ /* .main{
+     max-width:1200px;
+     margin:auto;
+
+ } */
+ .para{
+     /* vertical-align:text-bottom; */
+     position: absolute;
+    bottom: 20px;
+    left:40px;
+ }
+ .para p{
+    
+    font-family: 'Homemade Apple', cursive;
+    font-size: 19px;
+    color: rgb(219, 219, 197);
+    text-shadow: 1px 1px rgb(100, 100, 97);
+ }
+ .para h2{
+    font-family: 'Amatic SC', cursive;
+    font-weight: bolder;
+    font-size: 29px;
+    border: rgb(241, 241, 241) 1.5px solid;
+    display: inline-block;
+padding-right: 3px;
+padding-left: 3px;
+}
+/* .drop{
+
+} */
+.dropdown{
+    /* position:absolute; */
+display: inline-block;
+/* margin-block-start: 0%;
+margin-inline: -20%; */
+
+}
+.dropcontent{
+    display:none;
+    position: absolute;
+    background-color: #d3caca;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,2);
+    z-index:1; 
+}
+.dropcontent a{
+/* colour:black; */
+padding:12px 16px;
+text-decoration: none;
+display:block;
+}
+.dropcontent a:hover{
+   color: black;
+    background-color: rgb(190, 190, 178);
+}
+.dropdown:hover .dropcontent{
+display:block;
+}
+.dropdown:hover .drop{
+   color: slategray;
+}
